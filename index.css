@@ -1,0 +1,66 @@
+body{
+    background-color: #D8DBE2;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: #1B1B1E;
+    width: 100%;
+    background-color: #58A4B0;
+    margin: 0;
+    font-size: 100px;
+    box-shadow: 0 0 12px -2px black;
+    
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+#container{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+#puppy-container{
+    background-color: #A9BCD0;
+    box-shadow: 0 0 12px -2px black;
+    border-radius: 1rem;
+    width: 33%;
+    margin-top: 3rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+
+
+
+#instructions{
+    text-align: center;
+    width: 33%;
+    height: 100%;
+}
+
+#team{
+    background-color: #A9BCD0;
+    box-shadow: 0 0 12px -2px black;
+    border-radius: 1rem;
+    width: 33%;
+    margin-top: 3rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-container:hover{
+    opacity: 0.5;
+}
